@@ -1,9 +1,10 @@
 body {
-    background-color: #37134b;
+    background-image: linear-gradient(to top, #9b56c1, #106b87);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
+    background-image: linear-gradient(to bottom, #260d33, #4f1b6c);
     background-color: #260d33;
     color: #FFF;
     margin: auto;
@@ -34,22 +35,41 @@ body {
 }
 
 .sub-container {
-    background-color: #003f69;
-    width: 93%;
+    background-image: linear-gradient(to bottom, #260d33, #4f1b6c);
+    width: 90%;
     margin: auto;
     border-radius: 0.3rem;
     overflow: hidden;
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
 }
 
+.sub-container h3 {
+    font-size: 19px;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-around;
-    background-color: #003f69;
     padding: 0.3rem;
 }
 
+input {
+    width: 70%;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    border-radius: 0.3rem;
+    border: none; 
+    margin: 0.7rem;
+    padding-left: 0.6rem;
+}
+
+input:focus {
+    outline: 2px solid #74e5f9;
+    box-shadow: 0 0 10px #74e5f9;
+}
+
 .col-1, .col-2, .col-3 {
+    margin: 18px;
     display: flex;
     flex-direction: column;
     background-color: #106b87;
