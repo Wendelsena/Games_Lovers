@@ -5,12 +5,24 @@ body {
 
 .container {
     background-color: #260d33;
+    color: #FFF;
     margin: auto;
     width: 600px;
+    text-align: center;
+    
 }
 
 .header {
-    text-align: center;
+    color: #ffff00;
+}
+
+.header ul {
+    list-style-type: none;
+    color: #FFF;
+}
+
+.sub-container {
+    background-color: #003f69;
 }
 
 .flex-container {
@@ -23,13 +35,13 @@ body {
 .col-1, .col-2, .col-3 {
     display: flex;
     flex-direction: column;
+    background-color: #106b87;
 }
 
 button {
     background-color: #000000;
     color: #FFF;
     padding: 0.6rem;
-    font-size: 1rem;
     border-radius: 2px;
     border: none;
     cursor: pointer;
