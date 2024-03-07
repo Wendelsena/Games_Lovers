@@ -8,7 +8,7 @@ body {
     background-color: #260d33;
     color: #FFF;
     margin: auto;
-    width: 600px;
+    width: 37.0rem;
     text-align: center;
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0.3rem;
@@ -26,12 +26,12 @@ body {
     list-style-type: none;
     color: #FFF;
     padding: 0.0rem; 
-    font-size: 14px;
-    margin: 30px;
+    font-size: 0.8rem;
+    margin: 1.8rem;
 }
 
 .header ul li {
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 
 .sub-container {
@@ -44,7 +44,7 @@ body {
 }
 
 .sub-container h3 {
-    font-size: 19px;
+    font-size: 1.1rem;
 }
 
 .flex-container {
@@ -69,7 +69,7 @@ input:focus {
 }
 
 .col-1, .col-2, .col-3 {
-    margin: 18px;
+    margin: 1.1rem;
     display: flex;
     flex-direction: column;
     background-color: #106b87;
@@ -96,6 +96,7 @@ button {
     background-color: #000000;
     
 }
+
 button:hover {
     background-color: #FFF;
     color: #000;
@@ -106,5 +107,4 @@ button:hover {
     color: #C0C0C0;
     font-size: 0.6rem;
     padding: 0.5rem;
-  
 }
