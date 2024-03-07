@@ -55,10 +55,13 @@ body {
     background-color: #106b87;
     color: #FFF;
     border-radius: 0.3rem;
-    width: 28%;
-    padding: 0.3rem;
+    width: 22%;
+    padding: 1.0rem;
     outline: 2px solid #74e5f9;
     box-shadow: 0 0 10px #74e5f9;
+}
+object {
+    margin: 0.8rem;
 }
 
 button {
@@ -69,7 +72,7 @@ button {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 60%;
+    width: 70%;
     background-color: #000000;
     
 }
